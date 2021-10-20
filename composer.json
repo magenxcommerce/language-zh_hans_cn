@@ -1,0 +1,21 @@
+{
+    "name": "magenxcommerce/language-zh_hans_cn",
+    "description": "Chinese (China) language",
+    "version": "100.1.2",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "magenxcommerce/framework": "100.1.*"
+    },
+    "type": "magento2-language",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    },
+    "replace": {
+        "magento/language-zh_hans_cn": "*"
+    }
+}
